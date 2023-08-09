@@ -218,6 +218,8 @@ html{
   }
 
   
+  
+    
 
 @media screen and (max-width: 780px)
 {
@@ -307,7 +309,7 @@ html{
 .cabecalho
 {
    
-    top: 805px; 
+    top: 610px; 
 
 }
 
@@ -323,9 +325,9 @@ html{
 .cabecalho-lista-item
 {
     display: inline-block;
-    margin: 0 10px;
-    font-size: 12px ;
-    padding: 0 5px;
+    margin: 0 5px;
+    font-size: 11px ;
+    padding: 0 2px;
     
 }
 
