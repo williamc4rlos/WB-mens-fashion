@@ -229,12 +229,12 @@ html{
     
     padding-right: 1px;
     align-items: center;
-    padding: 150px 0;
+    padding: 120px 0;
 }
 .moda-masculina-div-conteudo
 {
     width: 75%;
-    padding-left: 100px;
+    padding-left: 50px;
 
 }
 
@@ -249,8 +249,8 @@ html{
 .dicas-moda-div-conteudo
 {
     background-color: #c5dfe0 ;
-    width: 45%;
-    padding-left: 100px;
+    width: 70%;
+    padding-left: 50px;
 
 }
 
@@ -260,7 +260,7 @@ html{
     padding-top: 80px;
     padding-left: 20%;
     display: grid;
-    grid-template-columns: 23% 23% 20% ;
+    grid-template-columns: 28% 28% 20% ;
     background-color: #c5dfe0;
     text-decoration: none;
 }
@@ -268,7 +268,7 @@ html{
 .dicas-div{
 
     border-radius: 15px;
-    width: 70px;
+    width: 80px;
 }
 
 .tendencias-div-conteudo{
@@ -276,8 +276,8 @@ html{
     
     background-color:  #c5dfe0;
     
-    width: 45%;
-    padding-left: 100px;
+    width: 70%;
+    padding-left: 50px;
     padding-top: 250px;
     
 
@@ -297,9 +297,9 @@ html{
 
     
     padding-top: 60px;
-    padding-left: 100px;
+    padding-left: 50px;
     display: grid;
-    grid-template-columns: 25% 25% 10% ;
+    grid-template-columns: 28% 28% 10% ;
     background-color: #c5dfe0;
     text-decoration: none;
 }
@@ -339,7 +339,7 @@ html{
     display: block;
     color: #0bce01;
     text-align: center;
-    padding: 20px 1px;
+    padding: 20px 10px;
     text-decoration: none;
   }
    }
