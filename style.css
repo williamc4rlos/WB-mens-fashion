@@ -1,0 +1,347 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+    font-family: 'Outfit', sans-serif;
+}
+
+.cabecalho
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    background-color: #8daec3;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    
+
+}
+
+.logo
+{   width: 15%;
+    padding-left: 20px;
+    margin-top: -40px;
+    z-index:9999;
+
+    position: absolute;
+   
+}
+.cabecalho-lista-item
+{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 15px ;
+    padding: 0 5px;
+    
+}
+
+
+
+
+.moda-masculina
+{
+    background-image: linear-gradient(#8daec3,#c5dfe0);
+    color: black;
+    display: flex;
+    padding-right: 400px;
+    align-items: center;
+    padding: 150px 0;
+}
+.moda-masculina-div-conteudo
+{
+    width: 35%;
+    padding-left: 300px;
+
+}
+.titulo-moda-masculina
+{
+    padding: 24px 0;
+    width: 20%;
+
+}
+
+.moda-imagem{
+
+    width: 10%;
+    padding: 10%;
+    border-radius: 300px;
+    
+}
+
+
+
+
+.dicas-moda-titulo
+{
+   
+    padding-right: 40px;
+    padding: 10px 0;
+    background-color: #c5dfe0;
+
+}
+
+
+.dicas-moda-div-conteudo
+{
+    background-color: #c5dfe0 ;
+    width: 45%;
+    padding-left: 800px;
+
+}
+
+.titulo-dicas-moda-masculina
+{
+    background-color: #c5dfe0;
+    padding: 1px 0;
+    width: 20%;
+
+}
+
+
+
+.dicas-moda{
+
+    
+    display: inline-block;
+    background-color: #c5dfe0;
+}
+
+
+
+.tendencias-div-conteudo{
+    
+    
+    background-color:  #c5dfe0;
+    
+    width: 45%;
+    padding-left: 300px;
+    padding-top: 250px;
+    
+
+}
+
+
+.tendencia-titulo{
+    
+
+    padding-right: 40px;
+    padding: 40px 0;
+    background-color: #c5dfe0;
+}
+
+.modelos{
+
+    background-color:  #c5dfe0;
+}
+
+.modelo-div{
+
+    width: 120px;
+    border-radius: 300px;
+    
+
+    
+    
+}
+
+.modelos-img{
+
+    
+    padding-top: 80px;
+    padding-left: 300px;
+    display: grid;
+    grid-template-columns: 10% 10% 10% ;
+    background-color: #c5dfe0;
+    text-decoration: none;
+}
+
+.rodape
+{
+    background-color: #8daec3;
+    text-align: center;
+}
+.rodape-imagem
+{
+    width: 100px;
+    padding: 1px 0;
+   
+
+}
+
+
+.dicas-img{
+
+    
+    padding-top: 80px;
+    padding-left: 50%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% ;
+    background-color: #c5dfe0;
+    text-decoration: none;
+}
+
+.dicas-div{
+
+    border-radius: 20px;
+    width: 120px;
+}
+html{
+    
+
+    scroll-behavior: smooth;
+}
+#lista-id a {
+    
+  text-decoration: none;
+  color: white;
+
+}
+
+.navbar a:hover{
+
+    background:  #3f525c;
+    
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #0bce01;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+  }
+
+  
+
+@media screen and (max-width: 780px)
+{
+    
+    .moda-masculina
+{
+    
+    
+    
+    padding-right: 1px;
+    align-items: center;
+    padding: 150px 0;
+}
+.moda-masculina-div-conteudo
+{
+    width: 75%;
+    padding-left: 100px;
+
+}
+
+.moda-imagem{
+
+    width: 20%;
+    padding: 5%;
+    border-radius: 300px;
+    
+}
+
+.dicas-moda-div-conteudo
+{
+    background-color: #c5dfe0 ;
+    width: 45%;
+    padding-left: 100px;
+
+}
+
+.dicas-img{
+
+    
+    padding-top: 80px;
+    padding-left: 20%;
+    display: grid;
+    grid-template-columns: 23% 23% 20% ;
+    background-color: #c5dfe0;
+    text-decoration: none;
+}
+
+.dicas-div{
+
+    border-radius: 15px;
+    width: 70px;
+}
+
+.tendencias-div-conteudo{
+    
+    
+    background-color:  #c5dfe0;
+    
+    width: 45%;
+    padding-left: 100px;
+    padding-top: 250px;
+    
+
+}
+
+.modelo-div{
+
+    width: 80px;
+    border-radius: 300px;
+    
+
+    
+    
+}
+
+.modelos-img{
+
+    
+    padding-top: 60px;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: 25% 25% 10% ;
+    background-color: #c5dfe0;
+    text-decoration: none;
+}
+
+.cabecalho
+{
+   
+    top: 865px; 
+
+}
+
+.logo
+{   width: 30%;
+    padding-left: 1px;
+    margin-top: 1px;
+    z-index:9999;
+
+    position: absolute;
+   
+}
+.cabecalho-lista-item
+{
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 15px ;
+    padding: 0 5px;
+    
+}
+
+.navbar a:hover{
+
+    background:  #3f525c;
+    
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #0bce01;
+    text-align: center;
+    padding: 20px 1px;
+    text-decoration: none;
+  }
+   }
+
+   
