@@ -306,15 +306,11 @@ html{
     text-decoration: none;
 }
 
-.cabecalho
-{
-   
-    top: 610px; 
 
-}
+
 
 .logo
-{   width: 30%;
+{   width: 20%;
     padding-left: 1px;
     margin-top: 1px;
     z-index:9999;
@@ -326,8 +322,8 @@ html{
 {
     display: inline-block;
     margin: 0 5px;
-    font-size: 11px ;
-    padding: 0 2px;
+    font-size: 10px ;
+  
     
 }
 
